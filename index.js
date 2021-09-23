@@ -118,6 +118,7 @@ abucoin.minePendingTransactions('abu-address');
 console.log(abucoin.getBalanceOfAddress('abu-address'));
 
 abucoin.minePendingTransactions('abu-address');
+// get Reward
 console.log(abucoin.getBalanceOfAddress('abu-address'));
 
 // console.log(abucoin);
