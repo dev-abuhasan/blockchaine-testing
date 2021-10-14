@@ -17,7 +17,7 @@ class Block {
             this.nonce++;
             this.hash = this.calculateHash();
         }
-        console.log('Mining done :' + this.hash);
+        // console.log('Mining done :' + this.hash);
     }
 
     calculateHash() {
@@ -115,21 +115,10 @@ abucoin.minePendingTransactions('abu-address');
 
 // console.log(abucoin.getBalanceOfAddress('address1'));
 // console.log(abucoin.getBalanceOfAddress('address2'));
-console.log(abucoin.getBalanceOfAddress('abu-address'));
+// console.log(abucoin.getBalanceOfAddress('abu-address'));
 
 abucoin.minePendingTransactions('abu-address');
 // get Reward
-console.log(abucoin.getBalanceOfAddress('abu-address'));
+// console.log(abucoin.getBalanceOfAddress('abu-address'));
 
-// console.log(abucoin);
-
-// const block1 = new Block('2019-01-01', { amount: 5 });
-// abucoin.addBlock(block1);
-// console.log(abucoin);
-
-// abucoin.chain[1].data = "HACKED";
-// console.log(abucoin.isBlockchainValid());
-
-// const block2 = new Block('2019-01-02', { amount: 10 });
-// abucoin.addBlock(block2);
-// console.log(abucoin);
+console.log(abucoin);
