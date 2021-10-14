@@ -3,17 +3,18 @@
 ## Clone Repo And run on your CMD or TERMINAL (Node index.js)
 
 ### If you run, you will find this type of Data Structure
-Blockchain {<br />
-  chain: [<br />
-    Block {<br />
-        timestamp: '2019-01-01',<br />
-        transaction: 'GENESIS',<br />
-        previousHash: '0000',<br />
-        hash: '0eaf20cbc7b980d524bf3ba6ae8d438fda553ce4ed38e9554573b66bcadc908c',<br />
-        nonce: 0<br />
-    },<br />
-    Block {<br />
-        timestamp: 1634213995629,<br />
+```
+Blockchain {
+  chain: [
+    Block {
+        timestamp: '2019-01-01',
+        transaction: 'GENESIS',
+        previousHash: '0000',
+        hash: '0eaf20cbc7b980d524bf3ba6ae8d438fda553ce4ed38e9554573b66bcadc908c',
+        nonce: 0
+    },
+    Block {
+        timestamp: 1634213995629,
         transaction: [Array],
         previousHash: '',
         hash: '0000246362201716e1d01d35e01d12c50501a0fcce474391b26b4d7d0a88729f',
@@ -37,3 +38,4 @@ Blockchain {<br />
   ],
   miningReward: 10
 }
+```
